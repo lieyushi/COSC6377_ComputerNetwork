@@ -1,0 +1,27 @@
+/************************* Folder Description ***************************************/
+
+This is the Client folder, which contains Client.java as Standard java class 
+
+for all shard computations. Besides, it has configuration.json which performs
+
+as configuration files.
+
+
+/************************** Compilation Instructions ********************************/
+	1) change in makefile by
+	    *** if want to upload
+	        -upload fileName
+
+	    *** if want to download
+	        -download fileName
+
+	    *** if want to test for monitor, should use test to keep uploading a file
+	        -test fileName
+
+	2) type:
+    make
+
+/************************** Dependency Relationship ********************************/
+
+Because all the classes of procotols are included in ../include, so when compiling the
+program, must guarentee the include/ file is in ../ directory
