@@ -1,0 +1,1 @@
+{"clientHomeDir":"../Client/","ListenPort":[20015,20016],"shardHomeDir":["../Shard1/","../Shard2/","../Shard3/"],"metaData":"metaData.json","shardIP":["127.0.0.1","127.0.0.1","127.0.0.1"],"shardPort":[20017,20018,20019]}

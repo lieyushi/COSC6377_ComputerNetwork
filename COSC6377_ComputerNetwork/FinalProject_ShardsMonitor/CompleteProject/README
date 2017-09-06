@@ -1,0 +1,58 @@
+------------------------------------------------------------------------------------------
+ This is the milestone for computer network final project on
+
+  distribution network
+
+  author: Lieyu Shi
+
+  Date: Oct 31st, 2016
+
+
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+Contents: The project contains three files, Shard, Client and
+	include. In include it contains all external library, e.g.,
+	Base64, Gson and some parsing java class I used for final 
+	project.
+
+	in Shard, it contains a configuration.json and a server.java
+
+	in Client, it contains a configuration.json and a client.java
+
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+Compilation instructions:
+
+Everything can be simply done by 
+
+	cd Shard
+
+	make
+
+	cd Client
+
+	make
+
+All makefiles in Shard and Client also executes test example from command line.
+So it means if you want to test for the other files, you should manually change
+the command line in makefile, i.e., 
+
+	the -upload/-download and the kobe.jpg in command line below:
+
+	java -cp .:../include/ SimpleFileClient -config configuration.json -upload kobe.jpg
+
+
+It's not trivial to test, but at least very easy by just typing make for a small test, as
+long as it's only a small project milestone. Further I would generate .jar and provide a
+better command line example
+
+
+------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
+
+Right now I didn't enable Gson string communication correctly. Given enough time
+I would have it done. But submitting a program which can work is at least better than a program
+can't work even it can be compiled
+
+
+
